@@ -1,7 +1,8 @@
 import { css } from "@emotion/react";
 
-export const listContainer = css`
+export const listsContainer = css`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 `;
